@@ -1,0 +1,27 @@
+mysql> use hotel1;
+Database changed
+mysql> desc menu;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| Menu_No    | int         | NO   | PRI | NULL    | auto_increment |
+| food_items | varchar(30) | YES  |     | NULL    |                |
+| price      | int         | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+3 rows in set (0.10 sec)
+
+mysql> select * from menu;
++---------+------------------------+-------+
+| Menu_No | food_items             | price |
++---------+------------------------+-------+
+|       1 | Chicken_Biriyani       |   150 |
+|       2 | Chicken_Noodles        |   120 |
+|       3 | Egg_Noodles            |   110 |
+|       4 | Chicken_Rice           |   140 |
+|       5 | Egg_Rice               |   125 |
+|       6 | Veg_Biriyani           |   120 |
+|       7 | Mutton_Briyani         |   190 |
+|       8 | Gobi_Manchuiran        |    85 |
+|       9 | South_Indian veg Meals |   125 |
++---------+------------------------+-------+
+9 rows in set (0.00 sec)

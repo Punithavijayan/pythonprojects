@@ -1,0 +1,67 @@
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/atm.py
+                ...ATM MACHINE...
+                _________________
+        Welcome
+        *******
+Please Insert your card
+PROCESSING.......
+Hi, Please do not remove your chip card
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        *#LANGUAGE SELECTING#
+        ******************
+select your language:& "C:/Program Files/Python310/python.exe" d:/pythonproject/atm.py
+your language not received please select any one in this option
+english,tamil,hindi
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/atm.py
+                ...ATM MACHINE...
+                _________________
+        Welcome
+        *******
+Please Insert your card
+PROCESSING.......
+Hi, Please do not remove your chip card 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        *#LANGUAGE SELECTING#
+        ******************
+select your language:english
+your english  language is selected
+        ENTERING ANY TWO DIGIT NUMBER
+        ******************************
+Enter any Number Between 10 and 99: 56
+ your number will be selected 
+>>Enter(yes or no) :yes
+yes it will go to next page 
+        YOUR PIN_NO
+        ***********
+Enter your secret pin:1308
+your 1308 pin is valid
+        ***Please choose 'BANKING' for cash widthdrwal***
+        **************************************************
+['Registration', 'mini statement', 'Banking', 'services', 'Transaction']
+Choose your withdrawal:Banking
+banking will selected
+        ***please select tranaction***
+        *******************************
+Deposite
+pin_change
+Cash_withdrawal
+Balancy Enquire
+Enter your transaction:cash_withdrawal
+you can select amount now
+        ***Please select account type***
+        ********************************
+current
+saving
+kcc
+enter your type:current
+if you selected current account
+        *** Please enter your amount Rs/-***
+        ************************************
+your amount limitation is 100 to 10,000
+enter your withdrawal amount:5000
+1146 (42S02): Table 'sample.user' doesn't exist
+Please collect cash
+Transaction complete
+successfully withdrawal amount in your bank:)
+****************Thank you************************
+***************visit Again*****************

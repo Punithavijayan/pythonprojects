@@ -1,0 +1,21 @@
+mysql> use sample;
+Database changed
+mysql> desc tab1;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| User_Name      | varchar(30) | YES  |     | NULL    |       |
+| Account_No     | int         | YES  |     | NULL    |       |
+| Pin_No         | int         | YES  |     | NULL    |       |
+| Current_Amount | int         | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+4 rows in set (0.05 sec)
+
+mysql> select * from tab1;
++-----------+------------+--------+----------------+
+| User_Name | Account_No | Pin_No | Current_Amount |
++-----------+------------+--------+----------------+
+| punitha   |    2389664 |   1308 |          10000 |
+| pooja     |     385747 |   1304 |          12000 |
++-----------+------------+--------+----------------+
+2 rows in set (0.06 sec)

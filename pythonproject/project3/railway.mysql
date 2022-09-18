@@ -1,0 +1,55 @@
+mysql> use railway;
+Database changed
+mysql> desc passangers;
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| passname        | varchar(25) | YES  |     | NULL    |       |
+| age             | varchar(30) | YES  |     | NULL    |       |
+| trainno         | varchar(30) | YES  |     | NULL    |       |
+| no_ofpassangers | varchar(25) | YES  |     | NULL    |       |
+| class           | varchar(25) | YES  |     | NULL    |       |
+| destination     | varchar(30) | YES  |     | NULL    |       |
+| amount          | varchar(25) | YES  |     | NULL    |       |
+| status          | varchar(30) | YES  |     | NULL    |       |
+| pnrno           | varchar(25) | YES  |     | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+9 rows in set (0.01 sec)
+
+mysql> desc trainsdetail;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| trainname   | varchar(25) | YES  |     | NULL    |       |
+| trainno     | varchar(30) | YES  |     | NULL    |       |
+| source      | varchar(30) | YES  |     | NULL    |       |
+| destination | varchar(25) | YES  |     | NULL    |       |
+| fare        | varchar(25) | YES  |     | NULL    |       |
+| ac1         | varchar(30) | YES  |     | NULL    |       |
+| ac2         | varchar(25) | YES  |     | NULL    |       |
+| sleep       | varchar(30) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+8 rows in set (0.00 sec)
+
+mysql> select * from passangers;
++----------------+------+---------+-----------------+-------+-------------+--------+--------+--------+
+| passname       | age  | trainno | no_ofpassangers | class | destination | amount | status | pnrno  |
++----------------+------+---------+-----------------+-------+-------------+--------+--------+--------+
+| punithavijayan | 23   | 34578   | 1               | AC1   | Bangalore   | 2500   | conf   | G1001  |
+| sudhauma       | 29   | 34575   | 1               | AC2   | chennai     | 2000   | conf   | G1003  |
+| meenavijay     | 26   | 34577   | 1               | AC1   | GOA         | 2500   | conf   | G1005  |
+| punithavijayan | 23   | 34567   | 1               | ac1   | Bangalore   | 5000   | G10001 | 35     |
+| poojavicky     | 24   | 34257   | 1               | ac1   | thirupathi  | 4000   | conf   | G1004  |
+| swethamohan    | 23   | 87523   | 2               | Ac2   | Goa         | 5000   | conf   | G10045 |
++----------------+------+---------+-----------------+-------+-------------+--------+--------+--------+
+6 rows in set (0.00 sec)
+
+mysql> select * from trainsdetail;
++---------------+---------+--------+-------------+------+------+------+-------+
+| trainname     | trainno | source | destination | fare | ac1  | ac2  | sleep |
++---------------+---------+--------+-------------+------+------+------+-------+
+| jamu_tavi     | 34578   | delhi  | Bangalore   | 5000 | 23   | 34   | 65    |
+| train_express | 34575   | Delhi  | Chennai     | 4000 | 25   | 28   | 63    |
+| Goa_express   | 34577   | Delhi  | GOA         | 6000 | 27   | 31   | 68    |
++---------------+---------+--------+-------------+------+------+------+-------+
+3 rows in set (0.03 sec)

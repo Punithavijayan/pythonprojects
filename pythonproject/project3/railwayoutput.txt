@@ -1,0 +1,118 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/railway.py
+                        TRAIN RESERVATION
+                        ******************
+1. add new passenger details
+2. show all from train details
+3. show all from passenger table
+4. Reservation of ticket
+5. Cancellation of Reservation
+enter your chioce:1
+ENTER NAME:swethamohan
+ENTER AGE:23
+ENTER TRAIN NO:87523
+ENTER NOO. OF PASENGERS:2
+ENTER CLASS:Ac2
+ENTER DESTINATION:Goa
+ENTER FARE:5000
+ENTER STATUS:conf
+ENTER PNRNO:G10045
+passenger record inserted
+         passname age trainno no_ofpassangers class destination amount  status   pnrno
+0  punithavijayan  23   34578               1   AC1   Bangalore   2500    conf   G1001
+2      meenavijay  26   34577               1   AC1         GOA   2500    conf   G1005
+3  punithavijayan  23   34567               1   ac1   Bangalore   5000  G10001      35
+4      poojavicky  24   34257               1   ac1  thirupathi   4000    conf   G1004
+5     swethamohan  23   87523               2   Ac2         Goa   5000    conf  G10045
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/railway.py
+
+                        TRAIN RESERVATION
+                        ******************
+1. add new passenger details
+2. show all from train details
+3. show all from passenger table
+4. Reservation of ticket
+5. Cancellation of Reservation
+enter your chioce:2
+ALL TRAIN DETAILS
+       trainname trainno source destination  fare ac1 ac2 sleep
+0      jamu_tavi   34578  delhi   Bangalore  5000  23  34    65
+1  train_express   34575  Delhi     Chennai  4000  25  28    63
+2    Goa_express   34577  Delhi         GOA  6000  27  31    68
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/railway.py
+
+                        TRAIN RESERVATION
+                        ******************
+1. add new passenger details
+2. show all from train details
+3. show all from passenger table
+4. Reservation of ticket
+5. Cancellation of Reservation
+enter your chioce:3
+ALL PASSENGER DETAILS
+         passname age trainno no_ofpassangers class destination amount  status   pnrno
+0  punithavijayan  23   34578               1   AC1   Bangalore   2500    conf   G1001
+1        sudhauma  29   34575               1   AC2     chennai   2000    conf   G1003
+2      meenavijay  26   34577               1   AC1         GOA   2500    conf   G1005
+3  punithavijayan  23   34567               1   ac1   Bangalore   5000  G10001      35
+4      poojavicky  24   34257               1   ac1  thirupathi   4000    conf   G1004
+5     swethamohan  23   87523               2   Ac2         Goa   5000    conf  G10045
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/railway.py
+
+                        TRAIN RESERVATION 
+                        ******************
+1. add new passenger details
+2. show all from train details
+3. show all from passenger table
+4. Reservation of ticket
+5. Cancellation of Reservation
+enter your chioce:4
+WE HAVE THE FOLLOWING SEAT TYPESMFOR YOU    
+TNAME IS 1 FOR BANAGALORE_EXPRESS FROM DELHI
+
+1. FIRST CLASS AC RS/-1000 PER PERSON       
+2. SECOND CLASS AC RS/-800 PER PERSON       
+1. THIRD CLASS AC RS/-500 PER PERSON        
+1. FOR SLEEPER RS/-400 PER PERSON
+
+TNAME IS 2 FOR CHENNAI_EXPRESS FROM DELHI   
+
+1. FIRST CLASS AC RS/-2000 PER PERSON       
+2. SECOND CLASS AC RS/-1500 PER PERSON      
+1. THIRD CLASS AC RS/-500 PER PERSON        
+1. FOR SLEEPER RS/-400 PER PERSON
+
+*ENTER YOUR CHOICE OF TRAIN NAME PLEASE*:1
+1
+HOW MANY TICKET YOU NEED:1
+you have chosen first class ac ticket
+your total ticket price is = 1000
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/railway.py
+
+                        TRAIN RESERVATION
+                        ******************
+1. add new passenger details
+2. show all from train details
+3. show all from passenger table
+4. Reservation of ticket
+5. Cancellation of Reservation
+enter your chioce:5
+before any changes in the status
+         passname age trainno no_ofpassangers class destination amount  status   pnrno
+0  punithavijayan  23   34578               1   AC1   Bangalore   2500    conf   G1001
+1        sudhauma  29   34575               1   AC2     chennai   2000    conf   G1003
+2      meenavijay  26   34577               1   AC1         GOA   2500    conf   G1005
+3  punithavijayan  23   34567               1   ac1   Bangalore   5000  G10001      35
+4      poojavicky  24   34257               1   ac1  thirupathi   4000    conf   G1004
+5     swethamohan  23   87523               2   Ac2         Goa   5000    conf  G10045
+         passname age trainno no_ofpassangers class destination amount     status   pnrno
+0  punithavijayan  23   34578               1   AC1   Bangalore   2500       conf   G1001
+1        sudhauma  29   34575               1   AC2     chennai   2000  cancelled   G1003
+2      meenavijay  26   34577               1   AC1         GOA   2500       conf   G1005
+3  punithavijayan  23   34567               1   ac1   Bangalore   5000     G10001      35
+4      poojavicky  24   34257               1   ac1  thirupathi   4000       conf   G1004
+5     swethamohan  23   87523               2   Ac2         Goa   5000       conf  G10045

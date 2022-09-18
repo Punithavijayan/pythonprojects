@@ -1,0 +1,130 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/hotel.py
+                ^...HOTEL MANAGEMENT...^
+                ************************
+WELCOME TO RAKSHAN HOTEL
+.....................
+since:2000-2022
+our management is 22 years old to running successfully with our love and support
+our management is too good for quality
+And  amount quantity will be variable for you
+**Take your seat sir/mam**
+**what do you want sir/mam**
+.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
+***..GRAND OPENING OFFER..***
+***only for/- 19,20,21.9.22
+['1.chicken_biriyani+chicken_biriyani', '2.mutton_biriyani+chicken_rice', '3.chicken_biriyani+chicken_noodles+egg_rice']
+enter your offer 1,2,or 3:1
+enjoy your buy one get one offer
+_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#
+*..MENU CARD..*
+_______________
+(1, 'Chicken_Biriyani', 150)
+(2, 'Chicken_Noodles', 120)
+(3, 'Egg_Noodles', 110)
+(4, 'Chicken_Rice', 140)
+(5, 'Egg_Rice', 125)
+(6, 'Veg_Biriyani', 120)
+(7, 'Mutton_Briyani', 190)
+(8, 'Gobi_Manchuiran', 85)
+(9, 'South_Indian veg Meals', 125)
+['online_order', 'home_parcel', 'seat&eat']
+it is available:online_order
+you can order this number:9876543267
+enter your address:vellore
+**you can choose your order please**
+**With in one hour your order will delivered
+['1.Chicken_Biriyani', '2.Chicken_Noodles', '3.Egg_Noodles', '4.Chicken_Rice', '5.Egg_Rice', '6.Veg_Biriyani', '7.Mutton_Biriyani', '8.Gobi_Manchuiran', '9.South_Indian Veg Meals']
+your order pls:Egg_Noodles
+your order Egg_Noodles in menu
+****************************************************************
+        you can give the feed back
+        ***************************
+ ENTER YOUR FEED BACK:good
+#..Thank you for your feed back..#
+*******Thank You Sir/Madam********
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/hotel.py
+                ^...HOTEL MANAGEMENT...^
+                ************************
+WELCOME TO RAKSHAN HOTEL
+.....................
+since:2000-2022
+our management is 22 years old to running successfully with our love and support
+our management is too good for quality
+And  amount quantity will be variable for you
+**Take your seat sir/mam**
+**what do you want sir/mam**
+.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
+***..GRAND OPENING OFFER..***
+***only for/- 19,20,21.9.22
+['1.chicken_biriyani+chicken_biriyani', '2.mutton_biriyani+chicken_rice', '3.chicken_biriyani+chicken_noodles+egg_rice']
+enter your offer 1,2,or 3:2
+receive your food and enjoy
+_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#
+*..MENU CARD..*
+_______________
+(1, 'Chicken_Biriyani', 150)
+(2, 'Chicken_Noodles', 120)
+(3, 'Egg_Noodles', 110)
+(4, 'Chicken_Rice', 140)
+(5, 'Egg_Rice', 125)
+(6, 'Veg_Biriyani', 120)
+(7, 'Mutton_Briyani', 190)
+(8, 'Gobi_Manchuiran', 85)
+(9, 'South_Indian veg Meals', 125)
+['online_order', 'home_parcel', 'seat&eat']
+it is available:home_parcel
+['1.Chicken_Biriyani', '2.Chicken_Noodles', '3.Egg_Noodles', '4.Chicken_Rice', '5.Egg_Rice', '6.Veg_Biriyani', '7.Mutton_Biriyani', '8.Gobi_Manchuiran', '9.South_Indian Veg Meals']
+choose menu list:Chicken_Rice
+your order Chicken_Rice in menu
+****************************************************************
+        ***************************
+ ENTER YOUR FEED BACK:very good
+#..Thank you for your feed back..#
+*******Thank You Sir/Madam********
+PS D:\pythonproject> & "C:/Program Files/Python310/python.exe" d:/pythonproject/hotel.py
+                ^...HOTEL MANAGEMENT...^
+                ************************
+WELCOME TO RAKSHAN HOTEL
+.....................
+since:2000-2022
+our management is 22 years old to running successfully with our love and support
+our management is too good for quality
+And  amount quantity will be variable for you
+**Take your seat sir/mam**
+**what do you want sir/mam**
+.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
+***..GRAND OPENING OFFER..***
+***only for/- 19,20,21.9.22
+['1.chicken_biriyani+chicken_biriyani', '2.mutton_biriyani+chicken_rice', '3.chicken_biriyani+chicken_noodles+egg_rice']        
+enter your offer 1,2,or 3:3
+your combo offer
+enjoy :)
+_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#
+*..MENU CARD..*
+_______________
+(1, 'Chicken_Biriyani', 150)
+(2, 'Chicken_Noodles', 120)
+(3, 'Egg_Noodles', 110)
+(4, 'Chicken_Rice', 140)
+(5, 'Egg_Rice', 125)
+(6, 'Veg_Biriyani', 120)
+(7, 'Mutton_Briyani', 190)
+(8, 'Gobi_Manchuiran', 85)
+(9, 'South_Indian veg Meals', 125)
+['online_order', 'home_parcel', 'seat&eat']
+it is available:seat&eat
+['1.Chicken_Biriyani', '2.Chicken_Noodles', '3.Egg_Noodles', '4.Chicken_Rice', '5.Egg_Rice', '6.Veg_Biriyani', '7.Mutton_Biriyani', '8.Gobi_Manchuiran', '9.South_Indian Veg Meals']
+your order pls:Veg_Biriyani
+your order Veg_Biriyani in menu
+****************************************************************
+        you can give the feed back 
+        ***************************
+ ENTER YOUR FEED BACK:good
+#..Thank you for your feed back..#
+*******Thank You Sir/Madam********
+PS D:\pythonproject> 
